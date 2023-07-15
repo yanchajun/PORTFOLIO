@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <header class="section-header">
+        <a class="logo" href="index.html">
+            <h1>MY PORTFOLIO</h1>
+        </a>
+        <div class="section-buttons">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Me</a>
+            <a href="resume.html">Resume</a>
+            <a href="skills.html">Skills</a>
+            <a href="contact.html">Contact Me</a>
+        </div>
+    </header>
+    <div class="home-body">
+        <div class="home-body-contact">
+            <h1>Contact Form</h1>
+            <div class="contact-form">
+                <div class="container">
+                    <form action="/action_page.php" method="get">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your name.." oninvalid="alert('You must fill out the form!');" name="name" required>
+
+                        <label for="number">Phone Number (+63)</label>
+                        <input type="number" id="number" name="phone-number" placeholder="Ex. 09123456789..">
+
+                        <label for="Email Address">Email Address</label>
+                        <input type="email" id="Email" name="email-account" placeholder="Your email Address..">
+
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" placeholder="Your subject you want to talk about..">
+                      
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" placeholder="Write something.." style="height:150px"></textarea>
+                        
+                        <form action="index.html" method="post">
+                            <div class="submit-button">
+                                <input type="submit" value="Submit">
+                                <p>or</p>
+                                <p>Message me here: </p>
+                                <div class="social-media">
+                                    <a href="https://www.facebook.com/profile.php?id=100009646789374" target="_blank">
+                                        <i class="bi bi-facebook"></i>
+                                    </a>
+                                    <a href="https://github.com/yanchajun" target="_blank">
+                                        <i class="bi bi-github"></i>
+                                    </a>
+                                    <a href="https://www.linkedin.com/in/joselito-yancha-jr-a854421a2/" target="_blank">
+                                        <i class="bi bi-linkedin"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </form>
+                    </form>
+                  </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,341 @@
+* {
+    font-family: 'Playfair Display';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+  }
+
+    body {
+      background-color: #00203FFF;
+      color: #ffffff;
+      margin: 2.5% 5% 2.5% 5%;
+      background-image: url('https://wallpaperset.com/w/full/7/f/2/143930.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-blend-mode: overlay;
+      background-attachment: fixed;
+    }
+
+    a {
+      color: #ADEFD1FF;
+    }
+
+    h1, h2, h3 {
+      color: #ADEFD1FF
+    }
+    
+    .section-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px;
+      color: #ADEFD1FF;
+    }
+    
+    .logo {
+        text-decoration: none;
+        color: #ADEFD1FF;
+    }
+    
+    .logo h1 {
+        margin: 0;
+        font-size: 24px;
+    }
+    
+    .section-buttons {
+      display: flex;
+    }
+    
+    .section-buttons a {
+      color: #ADEFD1FF;
+      text-decoration: none;
+      padding: 10px;
+    }
+      
+      .home:hover,
+      .about-me:hover,
+      .resume:hover,
+      .skills:hover,
+      .contact:hover {
+        background: rgb(0, 47, 94);
+      }
+    
+    .home:hover,
+    .about-me:hover,
+    .resume:hover,
+    .skills:hover,
+    .contact:hover {
+      background: rgb(0, 47, 94);
+    }
+
+    @media screen and (max-width: 768px) {
+      .section-header {
+          flex-direction: column;
+          align-items: flex-start;
+      }
+      
+      .section-buttons {
+          margin-top: 10px;
+      }
+      
+      .section-buttons a {
+          display: block;
+          margin-bottom: 10px;
+      }
+  }
+    
+    .home-body {
+      background-color: rgb(8, 37, 66, 0.5);
+      background-size: 100%;
+      padding: 50px;
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .home-container {
+      display: flex;
+    }
+
+    .home-container h1 {
+      margin-bottom: 20px;
+      font-weight: normal;
+      text-align: center;
+    }
+
+    .home-container h3 {
+      font-weight: normal;
+      text-align: center; 
+    }
+    
+    .home-container img {
+      max-width: 90%;
+      opacity: .75;
+    }
+
+    .left-side {
+      width: 50%;
+      margin-top: auto;
+      margin-bottom: auto;
+    }
+
+    .right-side {
+      width: 50%; 
+      margin-top: auto;
+      margin-bottom: auto;
+    } 
+
+    .home-body-about {
+      line-height: 1.5;
+      width: 100%;
+      display: flex;
+      text-align: center;
+    }
+
+    .home-body-about h1{
+      font-weight: normal;
+      margin-bottom: 10px;
+    }
+
+    .home-body-about p{
+      font-weight: normal;
+      font-family:Arial;
+    }
+
+    .home-body-about img{
+      max-width: 100%;
+      opacity: .75;
+      text-align: center;
+    }
+
+    .left-td {
+      width: 100%;
+      margin-top: auto;
+      margin-bottom: auto;
+      text-align: left;
+    }
+
+    .home-body-resume {
+      margin: 0 3% 3% 10%;
+      line-height: 1.5;
+    }
+
+    .portfolio-file a{
+      font-style: italic;
+      text-align: right;
+      color: #ADEFD1FF;
+    }
+
+    .home-body-resume h1{
+      font-size: 50px;
+      font-weight: normal;
+      margin-right: 10px;
+      margin-bottom: 10px;
+    }
+
+    .home-body-resume h2{
+      font-weight: normal;
+    }
+
+    .resume-table {
+      width: 100%;
+      border-spacing: 10px;
+    }
+
+    .resume-table tr,
+    .resume-table td {
+      border-color: #ADEFD1FF;
+      border: 1px solid;
+      padding: 10px;
+    }
+
+    .home-body-resume td,
+    .home-body-resume li,
+    .home-body-resume p {
+      font-family: arial;
+      font-size: 14px;
+    }
+
+    .home-body-skills {
+      padding: 10px;
+  }
+
+  .home-body-skills h1 {
+      text-align: center;
+  }
+
+  .home-body-skills table {
+      width: 100%;
+      margin-top: 20px;
+      border-spacing: 10px;
+  }
+
+  .home-body-skills td {
+      padding: 10px;
+      text-align: center;
+      background-color: #00203FFF;
+  }
+
+  .home-body-skills td h3 {
+      margin: 0;
+  }
+
+  .home-body-skills td li {
+      list-style-type: none;
+      margin: 5px 0;
+  }
+
+  @media screen and (max-width: 768px) {
+    .home-body-skills table {
+        width: 100%;
+        border-spacing: 10px;
+    }
+
+    .home-body-skills table thead {
+        display: none;
+    }
+
+    .home-body-skills table,
+    .home-body-skills table tr,
+    .home-body-skills table td,
+    .home-body-skills table th {
+        display: block;
+    }
+
+    .home-body-skills table tr {
+        margin-bottom: 15px;
+    }
+
+    .home-body-skills table td {
+        text-align: left;
+        border: none;
+        position: relative;
+        background-color: #00203FFF;
+    }
+
+    .home-body-skills table td h3 {
+        margin-top: 0;
+    }
+
+    .home-body-skills table td:before {
+        content: attr(data-label);
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        font-weight: bold;
+    }
+
+  }
+
+    .home-body-contact {
+      background-color: rgba(15, 66, 117, 0.5);
+      background-size: 100%;
+      padding: 10px;
+      margin-left: auto;
+      margin-right: auto;
+      height: 100%;
+      color: #ADEFD1FF;
+    }
+
+    .home-body-contact h1{
+      font-size: 30px;
+      font-weight: normal;
+      text-align: center;
+    }
+
+    input[type=text],  
+    input[type=email],
+    input[type=number],
+    select, textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #cccccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin-top: 6px;
+      margin-bottom: 16px;
+      resize: vertical;
+      background-color: #00203FFF;
+      color:#ffffff;
+    }
+  
+    .container input[type="email"]:invalid, 
+    .container input[type="number"]:invalid {
+      border: 1px solid red;
+      color: red; 
+      box-shadow:none;
+    }
+
+    input[type=submit] {
+      background-color: #ADEFD1FF;
+      color: #00203FFF;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .submit-button {
+      text-align: center;
+    }
+
+    .submit-button p{
+      font-size: 15px;
+      padding-top: 10px;
+    }
+
+    .social-media {
+      padding: 1em;
+    }
+
+    .social-media i{
+      padding: 1em;
+    }
+
+    .social-media i{
+      font-size: 25px;
+      text-align: center;
+    }
+  
